@@ -39,7 +39,7 @@ NSLog(@"手机型号: %@",phoneModel );   //手机型号
 //app应用相关信息的获取(Info.plist)  
 NSDictionary *dicInfo = [[NSBundle mainBundle] infoDictionary];  
   
-NSString *strAppName = [dicInfo objectForKey:@"CFBundleDisplayName"];  
+NSString *strAppName = [dicInfo objectForKey:@"CFBundleName"];  
 NSLog(@"App应用名称：%@", strAppName);   // 当前应用名称  
   
 NSString *strAppVersion = [dicInfo objectForKey:@"CFBundleShortVersionString"];  

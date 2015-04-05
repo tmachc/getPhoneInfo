@@ -18,9 +18,6 @@ UIDevice所做的工作就是为应用程序提供用户及设备的一些信息
 NSString *strName = [[UIDevice currentDevice] name];  
 NSLog(@"设备名称：%@", strName);//e.g. "My iPhone"  
 
-NSString *strId = [[UIDevice currentDevice] uniqueIdentifier];  
-NSLog(@"设备唯一标识：%@", strId);//UUID,5.0后不可用  
-
 NSString *strSysName = [[UIDevice currentDevice] systemName];  
 NSLog(@"系统名称：%@", strSysName);// e.g. @"iOS"  
 
